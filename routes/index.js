@@ -21,7 +21,7 @@ exports.index = function(req, res){
 	var Client = require('node-wolfram');
 	var Wolfram = new Client('XKEPG9-PLE83Q7XAT');
 	var ans = "Sorry I didn't find that";
-	Wolfram.query("American President", function(err, result) {
+	Wolfram.query(text, function(err, result) {
 		if(err)
 			console.log(err);
 		else
@@ -44,7 +44,7 @@ exports.index = function(req, res){
 				}
 			}
 			client.messages.create({
-				to: "+15102039956", 
+				to: from, 
 				from: "+16579995558",
 				body:ans,  
 			}, function(err, message) { 
