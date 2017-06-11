@@ -4,5 +4,6 @@
  */
 
 exports.list = function(req, res){
-  res.send("respond with a resource");
+  console.log("Error");
+	res.send("respond with a resource");
 };
