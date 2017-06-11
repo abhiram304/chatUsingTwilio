@@ -44,7 +44,7 @@ exports.index = function(req, res){
 				}
 			}
 			client.messages.create({
-				to: from, 
+				to: "+15102039956", 
 				from: "+16579995558",
 				body:ans,  
 			}, function(err, message) { 
