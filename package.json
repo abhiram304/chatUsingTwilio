@@ -8,6 +8,7 @@
   "dependencies": {
     "ejs": "*",
     "express": "3.2.6",
-    "twilio": "^3.3.0"
+    "twilio": "^3.3.0",
+    "unirest": "^0.5.1"
   }
 }
