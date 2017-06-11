@@ -14,7 +14,7 @@ exports.index = function(req, res){
 	client.messages.create({
 		to: "+15102039956", 
 		from: "+16579995558",
-		body: message,  
+		body: text,  
 	}, function(err, message) { 
 		console.log(message); 
 		res.render('index', { title: 'Express' });
