@@ -18,6 +18,7 @@ exports.index = function(req, res){
 	//var question = "https://webknox-question-answering.p.mashape.com/questions/answers?answerLookup=false&answerSearch=false&question="+text;
 	//var wolfram = require('wolfram-alpha').createClient("XKEPG9-PLE83Q7XAT",{output:"json"});
 
+	
 	var Client = require('node-wolfram');
 	var Wolfram = new Client('XKEPG9-PLE83Q7XAT');
 	var ans = "Sorry I didn't find that";
